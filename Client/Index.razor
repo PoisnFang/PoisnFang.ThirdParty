@@ -1,0 +1,8 @@
+@namespace PoisnFang.ThirdParty
+@inherits ModuleBase
+
+<BlazorInputFile.InputFile id="uploadFiles" OnChange="HandleSelectionAsync" />
+<br />
+<br />
+<br />
+<ChartJsPieChart @ref="_pieChartJs" Config="@_config" Width="600" Height="300" />
